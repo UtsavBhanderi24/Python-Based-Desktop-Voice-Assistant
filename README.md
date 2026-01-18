@@ -38,6 +38,11 @@ Python 3.6+
 
 2. **Clone The Repository**
    - Clone the forked repository to your local machine:
+      ```bash
+      git clone https://github.com/UtsavBhanderi24/Python-Based-Desktop-Voice-Assistant.git
+      cd Jarvis-Desktop-Voice-Assistant
+      ```
+      OR 
      ```bash
      git clone <URL>
      cd Jarvis-Desktop-Voice-Assistant
@@ -63,10 +68,18 @@ Python 3.6+
 
    - Install all the requirements given in **[requirements.txt](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant/blob/main/requirements.txt)** by running the command `pip install -r requirements.txt`
 
-5. **Install PyAudio**  
+5. **Install PyAudio**
    - Follow the instructions given **[here](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)**
+    ```bash
+      python -m pip install PyAudio
+    ```
+    The second way is entering this command:
+   ```bash
+   python pip install python-pyaudio
+   ```
 
-6. **Run the Assistant**
+
+7. **Run the Assistant**
   - Run the main script:
     ```bash
     python jarvis.py
